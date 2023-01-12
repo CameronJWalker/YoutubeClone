@@ -24,7 +24,7 @@ const Sidebar = () => (
                 }}
                 key={category.name}
             >
-                <span style={{ color: category.name === selectedCategory ? 'white' : 
+                <span style={{ color: category.name === selectedCategpry ? 'white' : 
                 'red', marginRight: '15px'}}>
                 {category.icon}</span>
                 <span style={{ opacity: category.name === selectedCategory ? '1' :
@@ -33,5 +33,3 @@ const Sidebar = () => (
         ))}
     </Stack>
 )
-
-export default Sidebar
